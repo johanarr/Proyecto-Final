@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu</title>
+  <link rel="stylesheet" href=".//CSS/estilo_principal.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <ul class="menu">
+    <div class="menuToggle"><ion-icon name="add-outline"></ion-icon></div>
+    <li style="--i: 0; --clr: #ff2972">
+      <a href="./inicio.html" title="Ir a la página de inicio"><ion-icon name="home-outline"></ion-icon></a>
+    </li>
+    <li style="--i: 1; --clr: #fee800">
+      <a href="#" title="Ir a la página de configuración"><ion-icon name="settings-outline"></ion-icon></a>
+    </li>
+    <li style="--i: 2; --clr: #04fc43">
+      <a href=".//cuenta.html" title="Ir a la página de cuenta"><ion-icon name="mail-outline"></ion-icon></a>
+    </li>
+    <li style="--i: 3; --clr: #fe00f1">
+      <a href="#" title="Ir a la página de clave"><ion-icon name="key-outline"></ion-icon></a>
+    </li>
+    <li style="--i: 4; --clr: #00b0fe">
+      <a href="./principal copy.html" title="Cambiar color de Fondo"><ion-icon name="camera-outline"></ion-icon></a>
+    </li>
+    <li style="--i: 5; --clr: #fea600">
+      <a href=".//mouse.html" title="Ir a la página de juegos"><ion-icon name="game-controller-outline"></ion-icon></a>
+    </li>
+    <li style="--i: 6; --clr: #a529ff">
+      <a href="#" title="Ir a la página de perfil"><ion-icon name="person-outline"></ion-icon></a>
+    </li>
+    <li style="--i: 7; --clr: #01bdab">
+      <a href="#" title="Ir a la página de video"><ion-icon name="videocam-outline"></ion-icon></a>
+    </li>
+  </ul>
+
+  <audio id="toggleSound">
+    <source src="audio/close.mp3" type="audio/mpeg">
+    <source src="audio/close.ogg" type="audio/ogg">
+  </audio>
+
+  <audio id="openSound">
+    <source src="audio/open.mp3" type="audio/mpeg">
+    <source src="audio/open.ogg" type="audio/ogg">
+  </audio>
+
+  <audio id="hoverSound">
+    <source src="audio/beep.mp3" type="audio/mpeg">
+    <source src="audio/beep.ogg" type="audio/ogg">
+  </audio>
+
+  <script>
+    $(document).ready(function() {
+      var toggleSound = $("#toggleSound")[0];
+      var openSound = $("#openSound")[0];
+      var hoverSound = $("#hoverSound")[0];
+
+      let menuToggle = document.querySelector(".menuToggle");
+      let menu = document.querySelector(".menu");
+
+      menuToggle.onclick = function () {
+        menu.classList.toggle("active");
+        toggleSound.currentTime = 0; 
+        toggleSound.play();
+        if (menu.classList.contains("active")) {
+          openSound.currentTime = 0; 
+          openSound.play();
+        }
+      };
+
+      $("a").mouseenter(function() {
+        hoverSound.currentTime = 0; 
+        hoverSound.play();
+      });
+    });
+  </script>
+
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+  <!-- Código de instalación Cliengo para 127.0.0.1:5500 --> <script type="text/javascript">(function () { var ldk = document.createElement('script'); ldk.type = 'text/javascript'; ldk.async = true; ldk.src = 'https://s.cliengo.com/weboptimizer/667a1837a21e4473c710ad75/667a1839a21e4473c710ad78.js?platform=view_installation_code'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ldk, s); })();</script>
+</body>
+</html>
+
