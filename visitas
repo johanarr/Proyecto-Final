@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Vistas para Página Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #bbd5f8;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #0e0e0e;
+        }
+        .counter {
+            font-size: 2em;
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Visitas de la página</h1>
+    </header>
+    <div class="container">
+        <p>Esta página ha sido vista:</p>
+        <div class="counter" id="counter">0</div>
+        <p>Veces</p>
+    </div>
+
+    <script>
+        // Obtener el contador actual del localStorage
+        let contador = localStorage.getItem('contadorIngresos');
+        if (!contador) {
+            contador = 0;
+        } else {
+            contador = parseInt(contador, 10);
+        }
+
+        // Incrementar el contador
+        contador++;
+
+        // Guardar el nuevo valor en localStorage
+        localStorage.setItem('contadorIngresos', contador);
+
+        // Mostrar el contador en la página
+        document.getElementById('counter').textContent = contador;
+    </script>
+</body>
+</html>
