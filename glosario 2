@@ -1,0 +1,180 @@
+<html lang="es">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glosario</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 25px;
+            background-color: #91b4db;
+        }
+
+        .GLOSARIO {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgb(82, 162, 253);
+            background-image: url("imagen/istockphoto-1304344938-612x612.jpg");
+            background-size: 180px ; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+            background-repeat: no-repeat;
+            background-position: top right; /* Posición en la esquina superior derecha */
+        }
+
+    
+        .GLOSARIO h1 {
+            text-align: center;
+            color: #050505;
+        } 
+        
+       .termino {
+            margin-bottom: 20px;
+        }
+        .termino h2 {
+            margin: 0;
+            color: #000203;
+        }
+        .termino p {
+            margin: 5px 0 0 0;
+        }
+
+        .termino p {
+            margin: 5px 0 0 0;
+        }
+
+        .termino::before {
+            content: "•";
+            color: #22229c;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+            .GLOSARIO h1 {
+            text-align: center;
+            color: #050505;
+        } 
+       }
+        
+       .termino {
+            margin-bottom: 20px;
+        }
+        .termino h2 {
+            margin: 0;
+            color: #000203;
+        }
+        .termino p {
+            margin: 5px 0 0 0;
+        }
+
+        .termino p {
+            margin: 5px 0 0 0;
+        }
+
+        .termino::before {
+            content: "•";
+            color: #22229c;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+            .GLOSARIO h1 {
+            text-align: center;
+            color: #050505;
+          
+        } 
+
+        
+    </style>
+</head>
+
+
+<body>
+    <div class="glosario">
+        <h1>GLOSARIO</h1>
+        
+        <div class="termino">
+            <h2>Algoritmo</h2>
+            <p>Conjunto ordenado de operaciones sistemáticas que permiten hacer un cálculo y hallar la solución de un tipo de problemas. </p>
+        </div>
+        
+        <div class="termino">
+            <h2>Algoritmo cotidiano</h2>
+            <p> En la vida cotidiana, se emplean algoritmos frecuentemente para resolver problemas, en términos de programación, un algoritmo es una secuencia de pasos lógicos que permiten solucionar un problema.</p>
+            <p>Ejemplos: Lavarnos los dientes, sacar dinero del cajero automático, hacer un recorrido en bicicleta</p>
+        </div>
+
+        <div clas= "termino">
+            <h2>Lógica</h2>
+            <p>Investiga cómo se construyen los argumentos sólidos y cómo se pueden distinguir de los argumentos falaces o inválidos. Desarrollo del pensamiento crítico y la argumentación coherente en disciplinas.</p>
+        </div>
+
+        <div clas= "termino">
+            <h2>Lógica en programación </h2>
+            <p>Razonamiento y la capacidad de desglosar un problema en pasos lógicos y secuenciales para ejecutar con éxito un programa.</p>
+        </div> 
+
+        <div class= "termino">
+            <h2>Lógica algoritmica</h2>
+            <p>Consiste en establecer una serie de preguntas acerca de lo que establece el problema, para poder determinar si se cuenta con los elementos suficientes para llevar a cabo la solución del mismo.</p>
+        </div>
+
+        <div class= "termino">
+            <h2>Pseudocódigo</h2>
+            <p>Descripción de algoritmos, de manera que todos los programadores puedan entenderlo, aunque no todos conozcan el mismo lenguaje de programación.</p>
+        </div>
+
+        <div clas= "termino">
+            <h2>Código</h2>
+            <p>Conjunto de signos y señales que se utilizan para transmitir un mensaje.</p>
+        </div> 
+
+        <div clas= "termino">
+            <h2>Código en programación</h2>
+            <p> son aquellos que estructuran el lenguaje de programación, que a su vez es el encargado de garantizar el correcto funcionamiento de las aplicaciones o programas que permiten una buena comunicación entre el usuario y la computadora.</p>
+            
+        </div> 
+
+        <div class= "termino">
+            <h2>Diagrama de flujo</h2>
+            <p>Solución a un algoritmo de la forma más detallada posible, y a su vez lo más parecida posible al lenguaje que posteriormente se utilizará para un lenguaje de programación en el que se utiliza la codificación del mismo.</p>
+        </div>
+
+        <div class= "termino">
+            <h2>Entrada y salida de datos</h2>
+            <p>El flujo de información en un sistema o proceso. Las entradas son los datos suministrados, el proceso involucra transformaciones y operaciones, y las salidas son los resultados obtenidos. Este modelo es útil para analizar, diseñar y optimizar sistemas en diversos campos</p>
+
+        </div>
+
+        <div class= "termino">
+            <h2>Estructura de selección e interacción  </h2>
+            <p>Las estructuras lógicas selectivas se encuentran en la solución algorítmica de casi todo tipo de problemas. Las utilizamos cuando en el desarrollo de la solución de un problema debemos tomar una decisión, para establecer un proceso o señalar un camino alternativo a seguir.</p>
+
+        </div>
+
+        <div clas= "termino">
+            <h2>Estructura de selección simple</h2>
+            <p>La estructura selectiva simple es aquella que evalúa la condición, por verdadera ejecuta una instrucción y si es falsa no ejecuta ninguna instrucción.</p>
+
+        </div>
+
+        <div clas= "termino">
+            <h2>Estructura de selección doble</h2>
+            <p>Las estructuras selectivas dobles nos permiten elegir alguna de dos posibles acciones a realizar dependiendo de la condición. En pseudocódigo se propone usar las palabras reservadas Si-Sino</p>
+            
+        </div>
+
+        <div clas= "termino">
+            <h2>Estructura básica de un programa</h2>
+            <p>Existen dos partes o bloques que componen un programa: Bloque de declaraciones: en este se detallan todos los datos que utiliza el programa (constantes, variables, archivos, etc). Bloque de instrucciones: conjunto de acciones u operaciones que se han de llevar a cabo para conseguir los resultados esperados.</p>
+            
+        </div>
+
+    </div>
+</body>
+</html>  
