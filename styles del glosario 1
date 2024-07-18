@@ -1,0 +1,34 @@
+body
+ {
+  background:url("https://img.freepik.com/vector-gratis/fondo-lujo-estilo-papel_23-2148983585.jpg?size=626&ext=jpg&ga=GA1.1.672697106.1714953600&semt=ais") no-repeat fixed;
+  background-size:100% 100%
+ }
+#tit
+{
+    font-family:arial;
+    font-size:25pt;
+    color:rgb(33, 99, 187);
+    text-shadow:2px 2px 3px;
+}
+#tex
+{
+    font-family:"arial black";
+    font-size:12pt;
+    color:black;
+    
+}
+#p
+{
+    color:black;
+    font-family:arial;
+    font-size:12pt;
+    text-align:justify;
+}
+.GLOSARIO {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgb(82, 162, 253);
+}
