@@ -1,0 +1,97 @@
+<body>
+    <link type=text/css rel=stylesheet href=a.css>
+    <div class="glosario">
+        <h1 id=tit align=center><u>GLOSARIO</u></h1>
+        
+        <div class="termino">
+            <h2 id=tit>• Algoritmo</h2>
+            <p id=tex>Conjunto ordenado de operaciones sistemáticas que permiten hacer un cálculo y hallar la solución de un tipo de problemas. </p>
+            <center><img width=350 height=200 src="https://concepto.de/wp-content/uploads/2018/04/algoritmo-min-e1523301106897.jpg"></center>
+        </div>
+        
+        <div>
+            <h2 id=tit>• Algoritmo cotidiano</h2>
+            <p id=tex> En la vida cotidiana, se emplean algoritmos frecuentemente para resolver problemas, en términos de programación, un algoritmo es una secuencia de pasos lógicos que permiten solucionar un problema.</p>
+            <p id=tex>Ejemplos: Lavarnos los dientes, sacar dinero del cajero automático, hacer un recorrido en bicicleta</p>
+            <center><img width=350 height=200 src="https://www.ceslopedevega.com/wp-content/uploads/2020/10/noticia-algoritmos-e1601891760335-1366x683.png"></center>
+        </div>
+
+        <div clas= "termino">
+            <h2 id=tit>• Lógica</h2>
+            <p id=tex>Investiga cómo se construyen los argumentos sólidos y cómo se pueden distinguir de los argumentos falaces o inválidos. Desarrollo del pensamiento crítico y la argumentación coherente en disciplinas.</p>
+            <center><img width=350 height=200 src="https://blog.facialix.com/wp-content/uploads/2024/02/curso-gratis-de-logica-de-programacion.jpg"></center>
+        </div>
+
+        <div clas= "termino">
+            <h2 id=tit>• Lógica en programación </h2>
+            <p id=tex>Razonamiento y la capacidad de desglosar un problema en pasos lógicos y secuenciales para ejecutar con éxito un programa.</p>
+            <center><img width=350 height=200 src="https://gestion.pe/resizer/wJVqRLDVyYZaYXICLaNI0nTsm08=/1200x800/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/GAFYUQYYUNEQRMPHN6S7RLDTJE.jpg"></center>
+        </div> 
+
+        <div class= "termino">
+            <h2 id=tit>• Lógica algoritmica</h2>
+            <p id=tex>Consiste en establecer una serie de preguntas acerca de lo que establece el problema, para poder determinar si se cuenta con los elementos suficientes para llevar a cabo la solución del mismo.</p>
+            <center><img width=350 height=200 src="https://miro.medium.com/v2/resize:fit:600/1*OVs4_Ne5dH9c8r7a0DvbDQ.jpeg"></center>
+        </div>
+
+        <div class= "termino">
+            <h2 id=tit>• Pseudocódigo</h2>
+            <p id=tex>Descripción de algoritmos, de manera que todos los programadores puedan entenderlo, aunque no todos conozcan el mismo lenguaje de programación.</p>
+            <center><img width=350 height=200 src="https://kinsta.com/es/wp-content/uploads/sites/8/2023/01/que-es-pseudocodigo.png"></center>
+        </div>
+
+        <div clas= "termino">
+            <h2 id=tit>• Código</h2>
+            <p id=tex>Conjunto de signos y señales que se utilizan para transmitir un mensaje.</p>
+            <center><img width=350 height=200 src="https://intef.es/wp-content/uploads/2023/05/10-1.jpg"></center>
+        </div> 
+
+        <div clas= "termino">
+            <h2 id=tit>• Código en programación</h2>
+            <p id=tex> son aquellos que estructuran el lenguaje de programación, que a su vez es el encargado de garantizar el correcto funcionamiento de las aplicaciones o programas que permiten una buena comunicación entre el usuario y la computadora.</p>
+            <center><img width=350 height=200 src="https://www.servnet.mx/hs-fs/hubfs/imagenes%20art%20sept/02%C2%BFQue%CC%81%20es%20el%20co%CC%81digo%20html_.png"></center>
+            
+        </div> 
+
+        <div class= "termino">
+            <h2 id=tit>• Diagrama de flujo</h2>
+            <p id=tex>Solución a un algoritmo de la forma más detallada posible, y a su vez lo más parecida posible al lenguaje que posteriormente se utilizará para un lenguaje de programación en el que se utiliza la codificación del mismo.</p>
+            <center><img width=350 height=200 src="https://www.researchgate.net/publication/27557960/figure/fig39/AS:487467129282572@1493232628438/Figura-318-Diagrama-de-flujo-de-la-logica-de-programacion-del-PLC-para-los-motores-M34.png"></center>
+        </div>
+
+        <div class= "termino">
+            <h2 id=tit>• Entrada y salida de datos</h2>
+            <p id=tex>El flujo de información en un sistema o proceso. Las entradas son los datos suministrados, el proceso involucra transformaciones y operaciones, y las salidas son los resultados obtenidos. Este modelo es útil para analizar, diseñar y optimizar sistemas en diversos campos</p>
+            <center><img width=350 height=200 src="https://www.programando.org/images/2011/03/EstructuraPrograma.png"></center>
+
+        </div>
+
+        <div class= "termino">
+            <h2 id=tit>• Estructura de selección e interacción  </h2>
+            <p id=tex>Las estructuras lógicas selectivas se encuentran en la solución algorítmica de casi todo tipo de problemas. Las utilizamos cuando en el desarrollo de la solución de un problema debemos tomar una decisión, para establecer un proceso o señalar un camino alternativo a seguir.</p>
+            <center><img width=350 height=200 src="https://assets.isu.pub/document-structure/210718052635-699c722665f097d7cce7f479e71404af/v1/5a12c22dc36f50c01f86e4177dbcb291.jpeg"></center>
+
+        </div>
+
+        <div clas= "termino">
+            <h2 id=tit>• Estructura de selección simple</h2>
+            <p id=tex>La estructura selectiva simple es aquella que evalúa la condición, por verdadera ejecuta una instrucción y si es falsa no ejecuta ninguna instrucción.</p>
+            <center><img width=350 height=200 src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibyvY8jB3-FydOIEOc4BWYElRNGqmlIVcaQe2b022qJvp_a7nezwcZWFOizMXf2FJkhICs7whKQqXWOYU0BrOF-UKVrlcqHimzHnWkcT5K3oTSEDmhhm6GLDEwvn6B4wkFDQxZIjAxSGQ/s320/seleccionsimple.png"></center>
+
+        </div>
+
+        <div clas= "termino">
+            <h2 id=tit>• Estructura de selección doble</h2>
+            <p id=tex>Las estructuras selectivas dobles nos permiten elegir alguna de dos posibles acciones a realizar dependiendo de la condición. En pseudocódigo se propone usar las palabras reservadas Si-Sino</p>
+            <center><img width=350 height=200 src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl_8M10ag3P4tBd_V8BTaDzCI4z52PyjG7KR_JomIGiVAVXmmUdKEFJxYQLA3JAOvFOjxagRecypgJ4e3LzKkgQ-LjtxGPog_-46dC3lEXLRNIpOeX2Td_bm2FMxdMYeynRbSGsKZay1I/w1200-h630-p-k-no-nu/selecciondoble.png"></center>
+            
+        </div>
+
+        <div clas= "termino">
+            <h2 id=tit>• Estructura básica de un programa</h2>
+            <p id=tex>Existen dos partes o bloques que componen un programa: Bloque de declaraciones: en este se detallan todos los datos que utiliza el programa (constantes, variables, archivos, etc). Bloque de instrucciones: conjunto de acciones u operaciones que se han de llevar a cabo para conseguir los resultados esperados.</p>
+            <center><img width=350 height=200 src="https://carlosmbom.neocities.org/img/estructurahtml.jpg"></center>
+            
+        </div> 
+    </div>
+</body>
